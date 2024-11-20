@@ -184,7 +184,9 @@ main{
         }
         
     }
-    
+    td{
+        user-select: text;
+    }
 }
 .combo-fecha{
     margin-left: auto;
