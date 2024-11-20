@@ -1,0 +1,26 @@
+<%- include('partials/header') %>
+    <header>
+        <span class="titulo">Tipos de documento</span>
+    </header>
+    <main>
+        <div class="main-header">
+            <%- include("partials/busqueda") %>
+            <%- include("partials/btn-nuevo") %>
+        </div>
+        <div class="table-container">
+            <table id="table" >
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                </tbody>
+            </table>
+        </div>
+    </main>
+<script>document.getElementById("btn-tipos-documento").classList.add("selected");</script>
+<script src="js/tipos-documento.js"></script>
+<%- include('partials/footer') %>

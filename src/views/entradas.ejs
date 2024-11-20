@@ -1,0 +1,35 @@
+<%- include('partials/header') %>
+    <header>
+        <span class="titulo">Entradas</span>
+    </header>
+    <main>
+        <div class="main-header">
+            <%- include("partials/busqueda") %>
+            <%- include("partials/btn-nuevo") %>
+        </div>
+        <div class="table-container">
+            <table id="table" >
+                <thead>
+                    <tr>
+                        <th>FECHA</th>
+                        <th>CODIGO</th>
+                        <th>ARTICULO</th>
+                        <th>UND/MED</th>
+                        <th>TIP/DOC</th>
+                        <th>N°DOC</th>
+                        <th>CANT</th>
+                        <th>PREC/UNIT</th>
+                        <th>PREC/TOT</th>
+                        <th>OBSERV</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                </tbody>
+            </table>
+        </div>
+    </main>
+<script>document.getElementById("btn-entradas").classList.add("selected");</script>
+<script src="js/entradas.js"></script>
+<%- include('partials/footer') %>
