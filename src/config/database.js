@@ -1,5 +1,5 @@
 const { Sequelize } = require('sequelize');
-const os = require('os');
+//const os = require('os');
 const path = require('path'); 
 
 //const ruta = path.join(os.homedir(), 'Documents', 'inventario.db');
